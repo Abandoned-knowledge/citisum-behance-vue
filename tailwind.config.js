@@ -11,6 +11,9 @@ export default {
       extra: "#FFC95C",
       links: "#4550C2",
     },
+    fontFamily: {
+      sans: '"Poppins", sans-serif',
+    },
     extend: {},
   },
   plugins: [],
