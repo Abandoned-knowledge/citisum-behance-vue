@@ -1,36 +1,25 @@
 <script setup lang="ts">
-import Button from "../shared/Button.vue";
-import LogoIcon from "../icons/LogoIcon.vue";
+import Button from "@/components/shared/Button.vue";
+import LogoIcon from "@/components/icons/LogoIcon.vue";
 import type { menuItem } from "@/interfaces/interfaces";
+import HamburgerMenu from "@/components/shared/HamburgerMenu.vue";
 
 const menuItems: menuItem[] = [
-  {
-    title: "About Us",
-    link: "#",
-  },
-  {
-    title: "Project",
-    link: "#",
-  },
-  {
-    title: "Agents",
-    link: "#",
-  },
-  {
-    title: "Services",
-    link: "#",
-  },
+  { title: "About Us", link: "#" },
+  { title: "Project", link: "#" },
+  { title: "Agents", link: "#" },
+  { title: "Services", link: "#" },
 ];
 </script>
 
 <template>
-  <header class="container mx-auto flex items-center justify-between pt-5">
-    <div class="flex items-center gap-5">
+  <header class="container mx-auto flex items-center justify-between pt-5 relative">
+    <a href="#" class="flex items-center gap-4">
       <LogoIcon class="text-dark" />
       <span class="text-4xl font-medium">Citisum</span>
-    </div>
+    </a>
 
-    <nav>
+    <nav class="hidden lg:block">
       <ul class="flex gap-16">
         <li v-for="item in menuItems" class="link">
           <a :href="item.link">{{ item.title }}</a>
@@ -38,15 +27,15 @@ const menuItems: menuItem[] = [
       </ul>
     </nav>
 
-    <Button> Contact Us </Button>
+    <Button class="hidden lg:block"> Contact Us </Button>
+
+    <HamburgerMenu :items="menuItems"/>
   </header>
 </template>
 
 <style lang="scss" scoped>
 .link {
-  @apply text-dark;
-  position: relative;
-
+  @apply text-dark relative;
   &:hover {
     &::before {
       width: 100%;
