@@ -32,24 +32,3 @@ const menuItems: menuItem[] = [
     <HamburgerMenu :items="menuItems"/>
   </header>
 </template>
-
-<style lang="scss" scoped>
-.link {
-  @apply text-dark relative;
-  &:hover {
-    &::before {
-      width: 100%;
-    }
-  }
-
-  &:before {
-    @apply bg-dark;
-    transition: all 0.3s ease;
-    content: "";
-    position: absolute;
-    height: 1px;
-    top: 100%;
-    width: 0;
-  }
-}
-</style>

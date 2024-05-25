@@ -38,23 +38,4 @@ const props = defineProps<HamburgerMenuItems>();
     @apply h-1 w-[90%] rounded-full bg-dark;
   }
 }
-
-.link {
-  @apply text-dark relative;
-  &:hover {
-    &::before {
-      width: 100%;
-    }
-  }
-
-  &:before {
-    @apply bg-dark;
-    transition: all 0.3s ease;
-    content: "";
-    position: absolute;
-    height: 1px;
-    top: 100%;
-    width: 0;
-  }
-}
 </style>
