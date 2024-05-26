@@ -1,0 +1,19 @@
+.h1-text {
+  @apply text-8xl font-semibold;
+}
+
+.title-text {
+  @apply text-2xl font-semibold;
+}
+
+.subtitle-text{
+  @apply text-base tracking-widest;
+}
+
+.body-text {
+  @apply text-base font-light;
+
+  &_uppercase{
+    @apply uppercase tracking-widest;
+  }
+}
