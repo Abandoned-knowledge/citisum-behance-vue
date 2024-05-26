@@ -15,7 +15,7 @@ const props = defineProps<HamburgerMenuItems>();
     </div>
     <nav
       :class="{ block: isActive, hidden: !isActive }"
-      class="absolute right-[1%] top-[120%] rounded-xl px-10 py-5 shadow"
+      class="absolute right-[1%] top-[120%] rounded-xl px-10 py-5 shadow bg-light bg-opacity-75"
     >
       <ul class="flex flex-col items-center gap-5">
         <li v-for="item in props.items" class="link text-nowrap">
