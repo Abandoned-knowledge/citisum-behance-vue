@@ -1,19 +1,27 @@
+[class*="text"] {
+  @apply text-dark;
+}
+
 .h1-text {
-  @apply text-8xl font-semibold;
+  @apply text-8xl font-semibold capitalize;
+}
+
+.h2-text {
+  @apply text-6xl font-semibold capitalize;
 }
 
 .title-text {
   @apply text-2xl font-semibold;
 }
 
-.subtitle-text{
+.subtitle-text {
   @apply text-base tracking-widest;
 }
 
 .body-text {
   @apply text-base font-light;
 
-  &_uppercase{
+  &_uppercase {
     @apply uppercase tracking-widest;
   }
 }

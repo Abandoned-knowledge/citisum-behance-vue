@@ -23,7 +23,7 @@ const menuItems: menuItem[] = [
       <nav class="hidden lg:block">
         <ul class="flex gap-16">
           <li v-for="item in menuItems" class="link">
-            <a :href="item.link">{{ item.title }}</a>
+            <a class="body-text" :href="item.link">{{ item.title }}</a>
           </li>
         </ul>
       </nav>
