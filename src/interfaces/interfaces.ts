@@ -4,5 +4,14 @@ export interface menuItem {
 }
 
 export interface HamburgerMenuItems {
-  items: menuItem[]
+  items: menuItem[];
+}
+
+export interface cardStorage {
+  img: string;
+  title: string;
+  location: string;
+  bedAmout: number;
+  bathAmout: number;
+  size: number;
 }

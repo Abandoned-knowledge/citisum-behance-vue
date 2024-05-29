@@ -1,7 +1,3 @@
-[class*="text"] {
-  @apply text-dark;
-}
-
 .h1-text {
   @apply text-8xl font-semibold capitalize;
 }
@@ -11,7 +7,7 @@
 }
 
 .title-text {
-  @apply text-2xl font-semibold;
+  @apply text-xl font-semibold;
 }
 
 .subtitle-text {
@@ -19,9 +15,13 @@
 }
 
 .body-text {
-  @apply text-base font-light;
+  @apply text-base font-normal;
 
   &_uppercase {
     @apply uppercase tracking-widest;
   }
+}
+
+.link-text {
+  @apply text-base font-normal text-links underline;
 }
