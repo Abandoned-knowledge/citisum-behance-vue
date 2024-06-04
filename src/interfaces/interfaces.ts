@@ -15,3 +15,7 @@ export interface cardStorage {
   bathAmout: number;
   size: number;
 }
+
+export interface cardBigStorage extends cardStorage  {
+  pricePerMonth: number 
+}

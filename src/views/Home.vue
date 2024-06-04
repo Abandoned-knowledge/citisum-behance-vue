@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import About from "@/components/blocks/About.vue";
 import Benefits from "@/components/blocks/Benefits.vue";
+import Featured from "@/components/blocks/Featured.vue";
 import Header from "@/components/blocks/Header.vue";
 import HeroSection from "@/components/blocks/HeroSection.vue";
 import ResentProject from "@/components/blocks/ResentProject.vue";
@@ -12,4 +13,5 @@ import ResentProject from "@/components/blocks/ResentProject.vue";
   <Benefits />
   <ResentProject />
   <About />
+  <Featured />
 </template>
