@@ -20,7 +20,7 @@ const props = defineProps<cardBigStorage>();
         <MoreIcon />
       </div>
 
-      <div class="bg-white absolute right-[-50px] top-[25px] flex rotate-45 items-center justify-center px-16 py-1">
+      <div class="absolute right-[-50px] top-[25px] flex rotate-45 items-center justify-center bg-white px-16 py-1">
         <p class="body-text text-dark">Featured</p>
       </div>
     </header>
