@@ -19,3 +19,8 @@ export interface cardStorage {
 export interface cardBigStorage extends cardStorage  {
   pricePerMonth: number 
 }
+
+export interface FAQItemStorage {
+  title: string,
+  content: string
+}
