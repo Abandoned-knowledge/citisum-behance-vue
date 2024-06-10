@@ -6,6 +6,7 @@ import Header from "@/components/blocks/Header.vue";
 import HeroSection from "@/components/blocks/HeroSection.vue";
 import ResentProject from "@/components/blocks/ResentProject.vue";
 import FAQs from "@/components/blocks/FAQs.vue";
+import Reviews from "@/components/blocks/Reviews.vue";
 </script>
 
 <template>
@@ -16,4 +17,5 @@ import FAQs from "@/components/blocks/FAQs.vue";
   <About />
   <Featured />
   <FAQs />
+  <Reviews />
 </template>

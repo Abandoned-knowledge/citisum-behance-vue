@@ -16,11 +16,18 @@ export interface cardStorage {
   size: number;
 }
 
-export interface cardBigStorage extends cardStorage  {
-  pricePerMonth: number 
+export interface cardBigStorage extends cardStorage {
+  pricePerMonth: number;
 }
 
 export interface FAQItemStorage {
-  title: string,
-  content: string
+  title: string;
+  content: string;
+}
+
+export interface reviewStorage {
+  imgUrl: string;
+  name: string;
+  location: string;
+  content: string;
 }
