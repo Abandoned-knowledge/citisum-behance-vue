@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import Button from "../shared/Button.vue";
+import Button from "@/components/shared/Button.vue";
 </script>
 
 <template>
   <section
-    class="main-gradient m-comp container relative mx-auto flex flex-col items-center justify-center rounded-2xl p-20 text-center lg:items-start lg:justify-start lg:text-start">
+    class="main-gradient m-comp container relative mx-auto flex flex-col items-center justify-center rounded-2xl p-20 text-center lg:items-start lg:justify-start lg:text-start"
+  >
     <div class="flex flex-col items-center gap-5 lg:w-[50%] lg:items-start">
       <h3 class="h3-text">Get Started with home</h3>
       <p class="body-text text-grey">Subscribe and find super attractive price quotes from us, Find your residence soon</p>

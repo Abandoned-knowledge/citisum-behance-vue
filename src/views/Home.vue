@@ -8,6 +8,7 @@ import ResentProject from "@/components/blocks/ResentProject.vue";
 import FAQs from "@/components/blocks/FAQs.vue";
 import Reviews from "@/components/blocks/Reviews.vue";
 import GetStarted from "@/components/blocks/GetStarted.vue";
+import Footer from "@/components/blocks/footer/Footer.vue";
 </script>
 
 <template>
@@ -20,4 +21,5 @@ import GetStarted from "@/components/blocks/GetStarted.vue";
   <FAQs />
   <Reviews />
   <GetStarted />
+  <Footer />
 </template>
