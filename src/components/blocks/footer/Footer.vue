@@ -11,7 +11,7 @@ import ItemLayout from "./FooterLayoutItem.vue";
 
 <template>
   <footer class="m-comp bg-light-darked">
-    <div class="container mx-auto flex flex-col gap-10 py-20">
+    <div class="container mx-auto flex flex-col gap-10 pt-20 pb-14">
       <!-- footer up -->
       <div class="footer__up">
         <!-- item 1 -->
@@ -62,7 +62,7 @@ import ItemLayout from "./FooterLayoutItem.vue";
 
       <!-- footer down -->
       <div class="border-t border-t-grey pt-5">
-        <p class="body text text-center text-grey">Copyright 2024 - All Right Reserved By Citisum</p>
+        <p class="body-text text-center text-grey">Copyright 2024 - All Right Reserved By Citisum</p>
       </div>
     </div>
   </footer>
