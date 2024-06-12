@@ -1,16 +1,19 @@
 .h1-text {
   @apply font-semibold capitalize;
   font-size: var(--h1-text);
+  line-height: 110%;
 }
 
 .h2-text {
   @apply font-semibold capitalize;
   font-size: var(--h2-text);
+  line-height: 100%;
 }
 
 .h3-text {
   @apply font-semibold capitalize;
   font-size: var(--h3-text);
+  line-height: 100%;
 }
 
 .title-text {
