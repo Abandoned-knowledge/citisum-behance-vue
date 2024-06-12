@@ -9,7 +9,7 @@ let isActive = ref<boolean>(false);
 <template>
   <article class="faq-item" :class="{ active: isActive }">
     <div @click="isActive = !isActive" class="faq-item__header">
-      <p class="title-text">{{ props.title }}</p>
+      <p class="title-text w-[80%]">{{ props.title }}</p>
       <div class="faq-item__icon"></div>
     </div>
     <div class="faq-item__content body-text w-[90%]">
@@ -32,7 +32,7 @@ let isActive = ref<boolean>(false);
   &__content {
     @apply grid text-grey;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 400ms ease;
+    transition: grid-template-rows 300ms ease;
 
     & > div {
       overflow: hidden;
