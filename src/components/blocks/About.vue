@@ -3,7 +3,7 @@ import { imageLinks, aboutBenefits } from "@/data/about";
 </script>
 
 <template>
-  <div class="m-comp flex min-h-screen items-center justify-center bg-dark">
+  <div id="about" class="m-comp flex min-h-screen items-center justify-center bg-dark">
     <section class="container mx-auto flex h-full flex-col items-center justify-center gap-20 py-10 md:flex-row">
       <div class="images grid w-[96%] md:w-[50%]">
         <img v-for="item in imageLinks" :src="item.link" alt="" :class="`images__item images__item_${item.count}`" />

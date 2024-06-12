@@ -98,7 +98,7 @@ onMounted(() => {
   @apply mt-10 flex flex-col gap-5 md:flex-row lg:gap-16;
 
   &__photo {
-    @apply order-2 flex-col items-center gap-3 rounded-2xl bg-white p-4 md:-order-1 md:w-[50%] lg:gap-5 lg:p-7;
+    @apply order-2 flex flex-col items-center gap-3 rounded-2xl bg-white p-4 md:-order-1 md:w-[50%] lg:gap-5 lg:p-7;
   }
 
   &__image {
@@ -114,7 +114,7 @@ onMounted(() => {
   }
 
   &__text {
-    @apply min-h-[200px] order-2 flex h-full w-full flex-col items-center justify-between rounded-2xl bg-white p-4 text-center font-normal text-grey sm:p-7 md:-order-1;
+    @apply order-2 flex h-full min-h-[200px] w-full flex-col items-center justify-between rounded-2xl bg-white p-4 text-center font-normal text-grey sm:p-7 md:-order-1;
   }
 
   &__quote {

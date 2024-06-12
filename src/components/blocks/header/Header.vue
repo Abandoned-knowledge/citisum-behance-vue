@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Button from "@/components/shared/Button.vue";
 import LogoIcon from "@/components/icons/LogoIcon.vue";
-import HamburgerMenu from "@/components/shared/HamburgerMenu.vue";
+import HamburgerMenu from "./HamburgerMenu.vue";
 import menuItems from "@/data/header";
 </script>
 

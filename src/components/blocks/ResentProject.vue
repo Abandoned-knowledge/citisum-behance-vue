@@ -5,7 +5,7 @@ import { cards } from "@/data/card";
 </script>
 
 <template>
-  <section class="m-comp container mx-auto">
+  <section id="projects" class="m-comp container mx-auto">
     <p class="body-text body-text_uppercase text-grey">best project of the years</p>
     <div class="flex items-center justify-between">
       <h2 class="h2-text">Our Resent Projects</h2>
