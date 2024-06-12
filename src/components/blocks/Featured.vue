@@ -45,10 +45,10 @@ function swiperPrevSlide(): void {
 
 <template>
   <section class="m-comp container mx-auto">
-    <p class="body-text body-text_uppercase">best project of the years</p>
+    <p class="body-text text-grey">Top Property Picks</p>
     <div class="flex items-center justify-between">
-      <h2 class="h2-text">Our Resent Projects</h2>
-      <div class="flex gap-5">
+      <h2 class="h2-text">Featured Properties</h2>
+      <div class="flex gap-3 md:gap-5">
         <div @click="swiperPrevSlide" class="slider-button">
           <SlidePrevIcon />
         </div>
@@ -59,14 +59,7 @@ function swiperPrevSlide(): void {
       </div>
     </div>
 
-    <swiper 
-    class="cards" 
-    :slides-per-view="slidesPerView" 
-    :loop="true" 
-    :space-between="30" 
-    :modules="[Navigation]" 
-    @swiper="onSwiper"
-    >
+    <swiper class="cards" :slides-per-view="slidesPerView" :loop="true" :space-between="30" :modules="[Navigation]" @swiper="onSwiper">
       <SwiperSlide v-for="card in cards" class="flex justify-center">
         <CardBig
           :img="card.img"
@@ -89,7 +82,12 @@ function swiperPrevSlide(): void {
 }
 
 .slider-button {
-  @apply flex h-16 w-16 cursor-pointer items-center justify-center rounded-full border border-dark text-dark transition-all duration-200 ease-in-out hover:bg-dark hover:text-light;
+  @apply flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border border-dark text-dark transition-all duration-200 ease-in-out hover:bg-dark hover:text-light md:h-14 md:w-14 xl:h-16 xl:w-16;
+
+  svg {
+    width: 35%;
+    height: 35%;
+  }
 
   * {
     stroke-width: 1.5px;

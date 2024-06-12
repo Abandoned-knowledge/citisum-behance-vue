@@ -6,7 +6,7 @@ import { cards } from "@/data/card";
 
 <template>
   <section class="m-comp container mx-auto">
-    <p class="body-text body-text_uppercase">best project of the years</p>
+    <p class="body-text body-text_uppercase text-grey">best project of the years</p>
     <div class="flex items-center justify-between">
       <h2 class="h2-text">Our Resent Projects</h2>
       <Button>View all categories</Button>
@@ -28,7 +28,7 @@ import { cards } from "@/data/card";
 
 <style scoped lang="scss">
 .cards {
-  @apply grid mt-12 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-items-center;
+  @apply mt-12 grid grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-4;
   gap: 20px 40px;
 }
 </style>
