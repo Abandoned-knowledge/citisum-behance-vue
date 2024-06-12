@@ -1,15 +1,8 @@
 <script setup lang="ts">
 import Button from "@/components/shared/Button.vue";
 import LogoIcon from "@/components/icons/LogoIcon.vue";
-import type { menuItem } from "@/interfaces/interfaces";
 import HamburgerMenu from "@/components/shared/HamburgerMenu.vue";
-
-const menuItems: menuItem[] = [
-  { title: "About Us", link: "#" },
-  { title: "Project", link: "#" },
-  { title: "Agents", link: "#" },
-  { title: "Services", link: "#" },
-];
+import menuItems from "@/data/header";
 </script>
 
 <template>

@@ -30,7 +30,7 @@ const props = defineProps<HamburgerMenuItems>();
 .hamburger {
   @apply block lg:hidden;
   &__icon {
-    @apply flex w-16 cursor-pointer flex-col items-center justify-between p-[10%];
+    @apply flex w-12 cursor-pointer flex-col items-center justify-between p-[10%];
     aspect-ratio: 1/0.7;
   }
 
