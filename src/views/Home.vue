@@ -12,14 +12,14 @@ import Footer from "@/components/blocks/footer/Footer.vue";
 </script>
 
 <template>
-  <Header />
-  <HeroSection />
-  <Benefits />
-  <ResentProject />
-  <About />
-  <Featured />
-  <FAQs />
+  <!-- <Header /> -->
+  <!-- <HeroSection /> -->
+  <!-- <Benefits /> -->
+  <!-- <ResentProject /> -->
+  <!-- <About /> -->
+  <!-- <Featured /> -->
+  <!-- <FAQs /> -->
   <Reviews />
-  <GetStarted />
-  <Footer />
+  <!-- <GetStarted /> -->
+  <!-- <Footer /> -->
 </template>

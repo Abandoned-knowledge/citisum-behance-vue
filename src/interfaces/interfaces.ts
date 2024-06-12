@@ -26,6 +26,7 @@ export interface FAQItemStorage {
 }
 
 export interface reviewStorage {
+  id: number;
   imgUrl: string;
   name: string;
   location: string;
